@@ -1,0 +1,23 @@
+body {
+  font-family: 'Open Sans Condensed';
+  padding: 20px 60px;
+  text-align: center;
+  color: #f3f3f3;
+  background-color: orangered;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  border: none;
+  border-color: #f3f3f3;
+  display: inline-block;
+  border-radius: 0.3rem;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
