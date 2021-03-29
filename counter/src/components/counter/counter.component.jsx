@@ -5,10 +5,10 @@ import Button from './../custom-button/custom-button.component';
 const Counter = () => {
   let [counter, setCounter] = useState(0);
 
-  const onIncrementClick = () => setCounter(counter + 1);
+  const onIncrementClick = () => setCounter((prevCounter) => prevCounter + 1);
 
   const onDecrementClick = () => {
-    counter <= 0 ? setCounter(0) : setCounter(counter - 1);
+    counter <= 0 ? setCounter(0) : setCounter((prevCounter) => prevCounter - 1);
   };
 
   const onResetClick = () => setCounter(0);
