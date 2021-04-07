@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 
+import Map from './../../shared/UIElements/mapbox';
 import Card from '../../shared/UIElements/card.component';
 import CustomButton from '../../shared/FormElements/Button.component';
 import './place-item.styles.scss';
 import Modal from '../../shared/UIElements/modal.component';
 
-const PlaceItem = ({ id, image, title, address, description }) => {
+const PlaceItem = ({ id, image, title, address, description, coordinates }) => {
   const [showMap, setShowMap] = useState(false);
   const openMapHandler = () => setShowMap(true);
   const closeMapHandler = () => setShowMap(false);
@@ -21,7 +22,7 @@ const PlaceItem = ({ id, image, title, address, description }) => {
         footer={<CustomButton onClick={closeMapHandler}>Close</CustomButton>}
       >
         <div className='map-container'>
-          <h2>The Map</h2>
+          <Map coordinates={coordinates} zoom={9} />
         </div>
       </Modal>
       <li className='place-item'>
