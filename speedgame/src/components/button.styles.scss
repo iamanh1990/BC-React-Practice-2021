@@ -1,0 +1,18 @@
+.button {
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  padding: 1rem 2rem;
+  background: #f3f3f3;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    background: #dfdfdf;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}

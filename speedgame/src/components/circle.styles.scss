@@ -1,0 +1,12 @@
+.circle {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background: #f3f3f3;
+  cursor: pointer;
+}
+
+.circle.active {
+  background: #4158d0;
+  outline: none;
+}
