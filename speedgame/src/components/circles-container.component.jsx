@@ -9,7 +9,11 @@ const CircleContainer = (props) => {
   return (
     <div className='circles-container'>
       {circles.map(({ circleId, isActive }) => (
-        <Circle key={circleId} className={isActive ? 'active' : ''} />
+        <Circle
+          key={circleId}
+          circleId={circleId}
+          className={isActive ? 'active' : ''}
+        />
       ))}
     </div>
   );

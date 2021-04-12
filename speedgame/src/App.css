@@ -22,7 +22,7 @@
 }
 
 .circles-container {
-  width: 50%;
+  width: 80%;
   margin: 2rem auto;
   display: flex;
   flex-wrap: wrap;
@@ -30,4 +30,8 @@
 }
 
 .score-container {
+  padding: 1rem 0;
+  margin: 2rem auto;
+  width: 50%;
+  background: #fff;
 }
