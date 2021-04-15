@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/iamanh1990/speedgame-react/static/css/main.da9ed6c1.chunk.css",
+    "main.js": "/iamanh1990/speedgame-react/static/js/main.90438253.chunk.js",
+    "main.js.map": "/iamanh1990/speedgame-react/static/js/main.90438253.chunk.js.map",
+    "runtime-main.js": "/iamanh1990/speedgame-react/static/js/runtime-main.013c3ab2.js",
+    "runtime-main.js.map": "/iamanh1990/speedgame-react/static/js/runtime-main.013c3ab2.js.map",
+    "static/js/2.4c9fd98a.chunk.js": "/iamanh1990/speedgame-react/static/js/2.4c9fd98a.chunk.js",
+    "static/js/2.4c9fd98a.chunk.js.map": "/iamanh1990/speedgame-react/static/js/2.4c9fd98a.chunk.js.map",
+    "index.html": "/iamanh1990/speedgame-react/index.html",
+    "static/css/main.da9ed6c1.chunk.css.map": "/iamanh1990/speedgame-react/static/css/main.da9ed6c1.chunk.css.map",
+    "static/js/2.4c9fd98a.chunk.js.LICENSE.txt": "/iamanh1990/speedgame-react/static/js/2.4c9fd98a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.013c3ab2.js",
+    "static/js/2.4c9fd98a.chunk.js",
+    "static/css/main.da9ed6c1.chunk.css",
+    "static/js/main.90438253.chunk.js"
+  ]
+}
