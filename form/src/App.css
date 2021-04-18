@@ -1,0 +1,37 @@
+#root {
+  width: 70%;
+  height: 100%;
+}
+
+.form {
+}
+
+.form-control {
+  margin: 1rem 0;
+}
+
+.form-label {
+  display: inline-block;
+  width: 30%;
+}
+
+.form-input {
+  display: inline-block;
+  width: 70%;
+  padding: 0.5rem 1rem;
+}
+
+input[type='submit'] {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  background: #494ce9;
+  padding: 1rem 2rem;
+  color: #f3f3f3;
+  font-size: 1.8rem;
+}
+
+h2 {
+  margin: 2rem 0;
+  text-align: center;
+}

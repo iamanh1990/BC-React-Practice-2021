@@ -1,0 +1,42 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f3f3f3;
+  padding: 2rem;
+  width: 500px;
+  animation: slideFromTop 0.8s ease-in-out;
+}
+
+.button {
+  display: inline-block;
+  width: 49%;
+  padding: 1rem 2rem;
+  background-color: #494ce9;
+  color: #f3f3f3;
+  font-size: 1.8rem;
+}
+
+@keyframes slideFromTop {
+  0% {
+    top: -50%;
+  }
+
+  80% {
+    top: 60%;
+  }
+
+  100% {
+    top: 50%;
+  }
+}
